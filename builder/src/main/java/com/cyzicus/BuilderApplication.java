@@ -1,7 +1,7 @@
 package com.cyzicus;
 
-import com.cyzicus.model.Meal;
-import com.cyzicus.model.MealBuilder;
+import com.cyzicus.shape.Meal;
+import com.cyzicus.shape.MealBuilder;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

@@ -1,4 +1,4 @@
-package com.cyzicus.model;
+package com.cyzicus.shape;
 
 public abstract class ColdDrink implements Item {
 

@@ -1,4 +1,4 @@
-package com.cyzicus.model;
+package com.cyzicus.shape;
 
 public class Bottle implements Packing {
     @Override

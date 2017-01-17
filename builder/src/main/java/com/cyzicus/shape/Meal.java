@@ -1,4 +1,4 @@
-package com.cyzicus.model;
+package com.cyzicus.shape;
 
 import java.util.ArrayList;
 import java.util.List;
