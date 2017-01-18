@@ -1,4 +1,4 @@
-package com.cyzicus.factory;
+package com.cyzicus;
 
 import com.cyzicus.color.Color;
 import com.cyzicus.shape.Shape;
@@ -13,6 +13,6 @@ public abstract class AbstractFactory {
         CIRCLE, SQUARE, RECTANGLE
     }
 
-    public abstract Color getColor(ColorType color);
-    public abstract Shape getShape(ShapeType shape);
+    abstract Color getColor(ColorType color);
+    abstract Shape getShape(ShapeType shape);
 }

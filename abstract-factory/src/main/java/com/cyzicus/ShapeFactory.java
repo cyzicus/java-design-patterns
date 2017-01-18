@@ -1,14 +1,12 @@
-package com.cyzicus.factory;
+package com.cyzicus;
 
+import com.cyzicus.AbstractFactory;
 import com.cyzicus.color.Color;
-import com.cyzicus.shape.Circle;
-import com.cyzicus.shape.Rectangle;
-import com.cyzicus.shape.Shape;
-import com.cyzicus.shape.Square;
+import com.cyzicus.shape.*;
 
 public class ShapeFactory extends AbstractFactory {
     @Override
-    public Color getColor(ColorType color) {
+    Color getColor(ColorType color) {
         return null;
     }
 

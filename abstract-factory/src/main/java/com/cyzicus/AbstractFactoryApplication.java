@@ -1,8 +1,6 @@
 package com.cyzicus;
 
 import com.cyzicus.color.Color;
-import com.cyzicus.factory.AbstractFactory;
-import com.cyzicus.factory.FactoryProducer;
 import com.cyzicus.shape.Shape;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -18,7 +16,7 @@ public class AbstractFactoryApplication {
 	private static void runAbstractFactoryDemo() {
 		AbstractFactory shapeFactory = FactoryProducer.getFactory(FactoryProducer.FactoryType.SHAPE);
 		AbstractFactory colorFactory = FactoryProducer.getFactory(FactoryProducer.FactoryType.COLOR);
-
+		
 		Shape shape1 = shapeFactory.getShape(AbstractFactory.ShapeType.CIRCLE);
 		shape1.draw();
 

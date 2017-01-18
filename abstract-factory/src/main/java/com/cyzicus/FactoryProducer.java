@@ -1,4 +1,4 @@
-package com.cyzicus.factory;
+package com.cyzicus;
 
 public class FactoryProducer {
 

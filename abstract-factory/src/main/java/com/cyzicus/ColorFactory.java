@@ -1,9 +1,10 @@
-package com.cyzicus.factory;
+package com.cyzicus;
 
 import com.cyzicus.color.Blue;
 import com.cyzicus.color.Color;
 import com.cyzicus.color.Green;
 import com.cyzicus.color.Red;
+import com.cyzicus.AbstractFactory;
 import com.cyzicus.shape.Shape;
 
 public class ColorFactory extends AbstractFactory {
@@ -21,7 +22,7 @@ public class ColorFactory extends AbstractFactory {
     }
 
     @Override
-    public Shape getShape(ShapeType shape) {
+    Shape getShape(ShapeType shape) {
         return null;
     }
 }
