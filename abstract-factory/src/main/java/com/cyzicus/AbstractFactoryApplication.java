@@ -16,7 +16,7 @@ public class AbstractFactoryApplication {
 	private static void runAbstractFactoryDemo() {
 		AbstractFactory shapeFactory = FactoryProducer.getFactory(FactoryProducer.FactoryType.SHAPE);
 		AbstractFactory colorFactory = FactoryProducer.getFactory(FactoryProducer.FactoryType.COLOR);
-		
+
 		Shape shape1 = shapeFactory.getShape(AbstractFactory.ShapeType.CIRCLE);
 		shape1.draw();
 
